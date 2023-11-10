@@ -28,11 +28,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Flip();
-        }
 
+        Flip();
         PlayerMove();
         CheckInput();
         AnimatorController();
